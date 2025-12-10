@@ -58,31 +58,4 @@ The app will be hosted locally at:
 
 copy above link and paste it on any browser
 
-## Screenshots
 
-### Home Page
-![Home Page](image1.png)
-
-### About LungPredict
-![About Page](image2.png)
-
-### Technology Stack
-![Technology Stack](image3.png)
-
-### Personal Information Form
-![Personal Information](image4.png)
-
-### X-Ray Upload Interface
-![Upload X-Ray](image5.png)
-
-### Prediction Results
-![Prediction Results](image6.png)
-
-### Detailed Analysis
-![Detailed Analysis](image7.png)
-
-### Health Recommendations
-![Health Recommendations](image8.png)
-
-### Contact Page
-![Contact Page](image9.png)
