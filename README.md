@@ -14,7 +14,7 @@ A sophisticated Flask web application that leverages deep learning to detect res
 ## 📸 Application Screenshots
 
 ### Home Page
-![Home Page](Image%201.png)
+![Home Page](Image1%201.png)
 *Welcome screen with key features and "Let's Start" button*
 
 ### About Page - Mission
