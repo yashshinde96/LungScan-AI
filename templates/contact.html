@@ -309,8 +309,7 @@
     <div class="container main-content pt-5 mt-5">
         <div class="row text-center mb-5">
             <div class="col-12">
-                <h1 class="page-title">Meet Our Team</h1>
-                <p class="lead mt-3">The brilliant minds behind the LungPredict project</p>
+                <p class="lead mt-3">The brilliant mind behind the LungPredict project</p>
             </div>
         </div>
         
@@ -318,63 +317,15 @@
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="team-member-card h-100">
                     <div class="profile-img-container">
-                        <img src="{{ url_for('static', filename='arman.jpg') }}" alt="Team Member 1" class="profile-img">
+                        <img src="{{ url_for('static', filename='MyPic.jpg') }}" alt="Yash Shinde" class="profile-img">
 
                     </div>
                     <div class="text-center">
-                        <h4>Arman Attar</h4>
-                        <p><i class="bi bi-envelope-fill me-2"></i>ayanattar49@gmail.com</p>
+                        <h4>Yash Shinde</h4>
+                        <p><i class="bi bi-envelope-fill me-2"></i>yashshinde570@gmail.com</p>
                         <div class="d-flex justify-content-center">
-                            <a href="#" class="mx-2"><i class="bi bi-linkedin social-icon"></i></a>
-                            <a href="#" class="mx-2"><i class="bi bi-github social-icon"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="team-member-card h-100">
-                    <div class="profile-img-container">
-                        <img src="{{ url_for('static', filename='kshitij.jpg') }}" alt="Team Member 2" class="profile-img">
-                    </div>
-                    <div class="text-center">
-                        <h4>Kshitij Kulkarni</h4>
-                        <p><i class="bi bi-envelope-fill me-2"></i>kshitijkulkarni925@gmail.com</p>
-                        <div class="d-flex justify-content-center">
-                            <a href="#" class="mx-2"><i class="bi bi-linkedin social-icon"></i></a>
-                            <a href="#" class="mx-2"><i class="bi bi-github social-icon"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="team-member-card h-100">
-                    <div class="profile-img-container">
-                        <img src="{{ url_for('static', filename='kamran.jpg') }}" alt="Team Member 3" class="profile-img">
-                    </div>
-                    <div class="text-center">
-                        <h4>kamran Tamboli</h4>
-                        <p><i class="bi bi-envelope-fill me-2"></i>kamrantamboli412@gmail.com</p>
-                        <div class="d-flex justify-content-center">
-                            <a href="#" class="mx-2"><i class="bi bi-linkedin social-icon"></i></a>
-                            <a href="#" class="mx-2"><i class="bi bi-github social-icon"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="team-member-card h-100">
-                    <div class="profile-img-container">
-                        <img src="{{ url_for('static', filename='aditya.jpg') }}" alt="Team Member 4" class="profile-img">
-                    </div>
-                    <div class="text-center">
-                        <h4>Aditya Patil</h4>
-                        <p><i class="bi bi-envelope-fill me-2"></i>adityapatil@gmail.com</p>
-                        <div class="d-flex justify-content-center">
-                            <a href="#" class="mx-2"><i class="bi bi-linkedin social-icon"></i></a>
-                            <a href="#" class="mx-2"><i class="bi bi-github social-icon"></i></a>
+                            <a href="https://www.linkedin.com/in/yash-shinde-42853836b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="mx-2"><i class="bi bi-linkedin social-icon"></i></a>
+                            <a href="https://github.com/yashshinde96" class="mx-2"><i class="bi bi-github social-icon"></i></a>
                         </div>
                     </div>
                 </div>
@@ -385,22 +336,22 @@
             <div class="col-lg-6 mb-4">
                 <div class="contact-form">
                     <h3 class="mb-4">Send Us a Message</h3>
-                    <form id="contactForm">
+                    <form id="contactForm" action="mailto:yashshinde570@gmail.com" method="post" enctype="text/plain">
                         <div class="mb-3">
                             <label for="name" class="form-label">Your Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email Address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
                         </div>
                         <div class="mb-3">
                             <label for="subject" class="form-label">Subject</label>
-                            <input type="text" class="form-control" id="subject" placeholder="Enter subject">
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter subject">
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message"></textarea>
                         </div>
                         <button type="submit" class="btn btn-submit">Send Message</button>
                     </form>
@@ -437,9 +388,9 @@
                     <h3 class="mb-4">Follow Us</h3>
                     <div class="d-flex justify-content-start">
                         <a href="#" class="me-4"><i class="bi bi-facebook social-icon"></i></a>
-                        <a href="#" class="me-4"><i class="bi bi-linkedin social-icon"></i></a>
-                        <a href="#" class="me-4"><i class="bi bi-github social-icon"></i></a>
-                        <a href="#" class="me-4"><i class="bi bi-instagram social-icon"></i></a>
+                        <a href="https://www.linkedin.com/in/yash-shinde-42853836b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="me-4"><i class="bi bi-linkedin social-icon"></i></a>
+                        <a href="https://github.com/yashshinde96" class="me-4"><i class="bi bi-github social-icon"></i></a>
+                        <a href="https://www.instagram.com/yashx.in?igsh=c3JiN3M0ZnNvc3pu&utm_source=qr" class="me-4"><i class="bi bi-instagram social-icon"></i></a>
                     </div>
                 </div>
             </div>
